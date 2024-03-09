@@ -1,0 +1,74 @@
+[
+    {
+        "tag": "Iphone",
+        "id": 1,
+        "name":"Iphone 13 (128GB) - Chính hãng VN/A",
+        "price": "14,250,000 VNĐ",
+        "image": "images/13-removebg-preview.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> OLED<br><strong>Độ phân giải:</strong> 1170 x 2532 Pixels, 2 camera 12 MP, 12 MP<br><strong>Hệ điều hành:</strong> iOS 15<br><strong>Vi xử lý:</strong> Apple A15 Bionic 6 nhân<br><strong>Bộ nhớ trong:</strong> 128 GB<br><strong>RAM:</strong> 4 GB<br><strong>Mạng di động:</strong> Hỗ trợ 5G<br><strong>Số khe SIM:</strong> 1 Nano SIM & 1 eSIM"
+    },
+    {
+        "tag": "Iphone",
+        "id": 2,
+        "name":"Điện thoại iPhone 15 Pro Max (256GB) - Chính hãng VN/A",
+        "price": "30,590,000 VNĐ",
+        "image": "images/iphone15.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> Màn hình Super Retina XDR, Tấm nền OLED, Dynamic Island, Công nghệ ProMotion với tốc độ làm mới thích ứng lên đến 120Hz, Màn hình Luôn Bật, Màn hình HDR, Tỷ lệ tương phản 2.000.000:1 (tiêu chuẩn), Màn hình True Tone, Màn hình có dải màu rộng (P3), Haptic Touch<br><strong>Độ phân giải:</strong> 1290 x 2796, Chính: 48MP, khẩu độ ƒ/1.78, Ultra Wide: 12MP, khẩu độ ƒ/2.2, Telephoto: 12MP, khẩu độ ƒ/2.8, Camera trước TrueDepth 12MP, khẩu độ ƒ/1.9<br><strong>Kích thước màn hình:</strong> 6.7'<br><strong>Hệ điều hành:</strong> iOS 17<br><strong>Vi xử lý:</strong> A17 Pro<br><strong>Bộ nhớ trong:</strong> 256GB<br><strong>RAM:</strong> 8GB<br><strong>Mạng di động:</strong> 2G, 3G, 4G, 5G<br><strong>Số khe SIM:</strong> SIM kép (nano SIM và eSIM), Hỗ trợ hai eSIM"
+    },
+    {
+        "tag": "Iphone",
+        "id": 3,
+        "name":"Điện thoại iPhone 14 Plus (512GB) - Chính hãng VN/A",
+        "price": "24,990,000 VNĐ",
+        "image": "images/iphone14.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> OLED<br><strong>Độ phân giải:</strong> Super Retina XDR (1284 x 2778 Pixels), 2 camera 12 MP, 12 MP<br><strong>Kích thước màn hình:</strong> 6.7'<br><strong>Hệ điều hành:</strong> iOS 16<br><strong>Vi xử lý:</strong> Apple A15 Bionic 6 nhân<br><strong>Bộ nhớ trong:</strong> 512 GB<br><strong>RAM:</strong> 6 GB<br><strong>Mạng di động:</strong> Hỗ trợ 5G<br><strong>Số khe SIM:</strong> 1 Nano SIM & 1 eSIM<br><strong>Dung lượng pin:</strong> 4325 mAh"
+    },
+    {
+        "tag": "Samsung",
+        "id": 4,
+        "name":"Điện Thoại AI - Samsung Galaxy S24 Ultra - 12GB/256GB - Chính hãng",
+        "price": "33,990,000 VNĐ",
+        "image": "images/ss24.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> Dynamic AMOLED 2X, Tần số quát 120Hz<br><strong>Độ phân giải:</strong> 3120 x 1440 (Quad HD+), 16 triệu màu, 200.0 MP + 50.0 MP + 12.0 MP + 10.0 MP, (F1.7 , F3.4 , F2.2 , F2.4), 12.0 MP<br><strong>Kích thước màn hình:</strong> 6.8'<br><strong>Vi xử lý:</strong> Snapdragon 8 Gen 3<br><strong>Bộ nhớ trong:</strong> 256GB<br><strong>RAM:</strong> 12GB<br><strong>Số khe SIM:</strong> Nano-SIM (4FF),Embedded-SIM<br><strong>Dung lượng pin:</strong> 5000mAh"
+    },
+    {
+        "tag": "Samsung",
+        "id": 5,
+        "name":"Điện thoại Samsung Galaxy Z Fold5 12GB/512GB (BHĐT)",
+        "price": "29,490,000 VNĐ",
+        "image": "images/ssflip.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> Dynamic AMOLED 2X, Tần số quét 120 Hz, Màn hình chính: Infinity Flex, Màn hình phụ: Infinity-O<br><strong>Độ phân giải:</strong> Màn hình chính: 2176 x 1812 (QXGA+), Màn hình phụ: 2316 x 904 (HD+), 50 MP + 12 MP + 10 MP, Camera trước ở màn hình phụ: 10 MP, Camera ẩn dưới màn hình: 4 MP<br><strong>Kích thước màn hình:</strong> Màn hình chính: 7.6', Màn hình phụ: 6.2'<br><strong>Hệ điều hành:</strong> OneUI 5.1.1 / Android 13<br><strong>Vi xử lý:</strong> Snapdragon® 8 Gen 2 dành cho Galaxy<br><strong>Bộ nhớ trong:</strong> 512GB<br><strong>RAM:</strong> 12GB<br><strong>Mạng di động:</strong> Hỗ trợ 5G<br><strong>Số khe SIM:</strong> Nano-sim & E-sim<br><strong>Dung lượng pin:</strong> 4400 mAh"
+    },
+    {
+        "tag": "Samsung",
+        "id": 6,
+        "name":"Samsung Galaxy A25 5G - 6GB/128GB - Chính hãng",
+        "price": "6,290,000 VNĐ",
+        "image": "images/ssa25.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> Super AMOLED<br><strong>Độ phân giải:</strong> Full HD+ (1080 x 2340 Pixels), Camera Chính: 50 MP., Camera Phụ: 8 MP x 2 MP, 13 MP<br><strong>Kích thước màn hình:</strong> 6.5' - Tần số quét 120 Hz<br><strong>Hệ điều hành:</strong> Android 14<br><strong>Vi xử lý:</strong> Exynos 1280 8 nhân<br><strong>Bộ nhớ trong:</strong> 128GB<br><strong>RAM:</strong> 6GB<br><strong>Mạng di động:</strong> Hỗ trợ 5G<br><strong>Số khe SIM:</strong> 2 Nano SIM<br><strong>Dung lượng pin:</strong> 5.000mAh"
+    },
+    {
+        "tag": "Xiaomi",
+        "id": 7,
+        "name":"Điện thoại Xiaomi 13T (12GB/256GB) - Chính hãng",
+        "price": "11,690,000 VNĐ",
+        "image": "images/xm13t.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> AMOLED, Tần số quét lên tới 144Hz, Tần số lấy mẫu cảm ứng lên tới 480Hz, Màn hình Pro HDR｜Dolby Vision ｜HDR10+ ｜HDR10, Độ phủ màu: DCI-P3 ｜68 tỉ màu ｜True Display, Màn hình chuẩn màu: JNCD≈ 0.39, Delta E≈ 0.39*<br><strong>Độ phân giải:</strong> 1220 x 2712, Camera chính Leica: Sony IMX707 50MP f/1.9 OIS, Camera telephoto Leica: 50MP f/1.9, Camera góc siêu rộng Leica: 12MP f/2.2, 20MP f/2.2<br><strong>Kích thước màn hình:</strong> 6.67'<br><strong>Hệ điều hành:</strong> MIUI 14 trên nền tảng Android 13<br><strong>Vi xử lý:</strong> MediaTek Dimensity 8200-Ultra<br><strong>Bộ nhớ trong:</strong> 256GB<br><strong>RAM:</strong> 12GB<br><strong>Mạng di động:</strong> 2G, 3G, 4G, 5G<br><strong>Số khe SIM:</strong> 2 nano SIM<br><strong>Dung lượng pin:</strong> 5000mAh"
+    },
+    {
+        "tag": "Xiaomi",
+        "id": 8,
+        "name":"Điện thoại POCO X6 5G (8GB/256GB) - Chính hãng",
+        "price": "7,390,000 VNĐ",
+        "image": "images/poco.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> CrystalRes 1.5K Flow AMOLED DotDisplay, Tỷ lệ khung hình: 20: 9, Tỷ lệ tương phản: 5.000.000:1, Gam màu: 100% DCI-P3, Màn hình HDR chuyên nghiệp, Tốc độ làm mới: Lên đến 120Hz, Tốc độ lấy mẫu cảm ứng: 240Hz, Hỗ trợ chế độ ánh sáng mặt trời, Hỗ trợ chế độ chu kỳ, Hỗ trợ chế độ đọc<br><strong>Độ phân giải:</strong> 1220x2712, Cảm biến góc rộng 64MP f/1.79, Cảm biến góc siêu rộng 8MP f/2.2, Cảm biến macro 2MP f/2.4, Camera trước 16MP f/2.45<br><strong>Kích thước màn hình:</strong> 6.67'<br><strong>Hệ điều hành:</strong> MIUI 14 cho POCO trên nền tảng Android<br><strong>Vi xử lý:</strong> Qualcomm Snapdragon 7s Gen 2<br><strong>Bộ nhớ trong:</strong> 256GB<br><strong>RAM:</strong> 8GB<br><strong>Mạng di động:</strong> 2G. 3G, 4G, 5G<br><strong>Số khe SIM:</strong> 2 nano SIM<br><strong>Dung lượng pin:</strong> 5100mAh"
+    },
+    {
+        "tag": "Xiaomi",
+        "id": 9,
+        "name":"Xiaomi 13 Lite (8GB/256GB) - Chính hãng",
+        "price": "8,890,000 VNĐ",
+        "image": "images/xm13lite.webp",
+        "description": "<strong>Công nghệ màn hình:</strong> AMOLED 120Hz<br><strong>Độ phân giải:</strong> FHD+, Camera góc rộng 50MP, Camera góc siêu rộng 8MP, Camera cận cảnh 2MP, Camera kép: Camera góc siêu rộng 32MP + Cảm biến độ sâu 8MP<br><strong>Kích thước màn hình:</strong> 6.55'<br><strong>Hệ điều hành:</strong> MIUI 14, Android 12<br><strong>Vi xử lý:</strong> Qualcomm Snapdragon 7 Gen 1<br><strong>Bộ nhớ trong:</strong> 256GB<br><strong>RAM:</strong> 8GB<br><strong>Dung lượng pin:</strong> 4500mAh"
+    }
+]

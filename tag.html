@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.jpg">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <div class="logo"><img src="images/logo.jpg" alt="logo"><p>TH</p></div>
+        </a>
+        <h1>Điện thoại thông minh, cuộc sống thông minh</h1>
+    </header>
+    <div class="menucon"></div>
+    <div class="banner"><img src="images/banner.jpg" alt=""></div>
+    <div class="container">
+        <div class="tag">
+            <p class="name"></p>
+        </div>
+
+        <div class="listProduct"></div>
+        <div class="container">
+            <div class="listProduct">
+    
+            </div>
+        </div>
+    <script>
+let tags = null;
+
+fetch('tag.json')
+    .then(response => response.json())
+    .then(data => {
+        tags = data;
+        showTag();
+})
+
+        function showTag(){
+    // remove datas default from HTML
+        let tagPage = document.querySelector('.tag');
+        let tagId =  new URLSearchParams(window.location.search).get('id');
+        let thisTag = tags.filter(value => value.tag == tagId)[0];
+        console.log(tagId);
+        if(!thisTag){
+            window.location.href = "/";
+        }
+
+        tagPage.querySelector('.name').innerText = thisTag.tag;
+
+    }
+    let products = null;
+
+fetch('products.json')
+    .then(response => response.json())
+    .then(data => {
+        products = data;
+        addDataToHTML();
+})
+
+function addDataToHTML(){
+let listProductHTML = document.querySelector('.listProduct');
+let tagId =  new URLSearchParams(window.location.search).get('id');
+if(products != null)
+{
+    products.forEach(product => {
+        if(product.tag==tagId)
+        {
+        let newProduct = document.createElement('a');
+        newProduct.href = './detail.html?id=' + product.id;
+        newProduct.classList.add('item');
+        newProduct.innerHTML = 
+        `<img src="${product.image}" alt="">
+        <h3>${product.name}</h3>
+        <p>Giá: ${product.price}</p>`;
+        listProductHTML.appendChild(newProduct);
+        }  
+    });
+}
+}
+    </script>
+    <div class="container1">
+            <div class="item1">
+                    <img src="images/service.png" alt="">
+                <div class="text">
+                    <span>Sản phẩm</span> <br>
+                    <strong>CHÍNH HÃNG</strong>
+                </div>
+            </div>
+            <div class="item1">
+                <img src="images/truck.png" alt="">
+                <div class="text">
+                    <span>Miễn phí vận chuyển</span> <br>
+                    <strong>TOÀN QUỐC</strong>
+                </div>
+            </div>
+            <div class="item1">
+                <img src="images/person-of-a-call-center-in-communication-with-headphones.png" alt="">
+                <div class="text">
+                    <span>Hotline hỗ trợ</span> <br>
+                    <strong>1900.2091</strong>
+                </div>
+            </div>
+            <div class="item1">
+                <img src="images/change-management.png" alt="">
+                <div class="text">
+                    <span>Thủ tục đổi trả</span> <br>
+                    <strong>DỄ DÀNG</strong>
+                </div>
+            </div>
+    </div>
+    <footer>
+        <a name="footer">
+            <div class="col1">
+                <p>Hỗ Trợ - Dịch Vụ</p>
+                <a href="#">Chính sách và hướng dẫn mua hàng trả góp</a>
+                <a href="#">Hướng dẫn mua hàng và chính sách vận chuyển</a>
+                <a href="#">Tra cứu đơn hàng</a>
+                <a href="#">Chính sách đổi mới và bảo hành</a>
+                <a href="#">Dịch vụ bảo hành mở rộng</a>
+                <a href="#">Chính sách bảo mật</a>
+                <a href="#">Chính sách giải quyết khiếu nại</a>
+                <a href="#">Quy chế hoạt động</a>
+            </div>
+            <div class="col2">
+                <p>Thông Tin Liên Hệ</p>
+                <a href="">Hotline: 18008002</a>
+                <a href="">Sdt:091375928</a>
+            </div>
+            <div class="col3">
+                <p>Thanh Toán Miễn Phí</p>
+                <img src="images/sspay.png" alt="">
+                <img src="images/vnpay.png" alt="">
+                <img src="images/jbc.jfif" alt="">
+                <img src="images/visa.jfif" alt="">
+                <img src="images/bidv.png" alt="">
+                <img src="images/download.jfif" alt="">
+            </div>
+            <div class="col4">
+                <p>Hình Thức Vận Chuyển</p>
+                <img src="images/nhattin.jpg" alt="">
+                <img src="images/vnpost.png" alt="">
+                <img src="images/thongbaocongthuong.png" class="bct">
+            </div>
+        </a>
+    </footer>
+</body>
+</html>
