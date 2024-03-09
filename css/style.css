@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #181b1b;
+}
+.logo{
+    display: flex;
+}
+header{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: #4e4f53;
+    align-items: center;
+}
+header p{
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: -10px;
+    font-size: 40px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+header>a{
+    text-decoration: none;
+}
+header h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-right: 50px;
+}
+header>a>div>img{
+    margin-left: 15%;
+    width: 180px;
+    height: 150px;  
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    color: wheat;
+    display: block;
+    padding: 15px 20px;
+    min-width: 200px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+nav>ul>li>a>i{
+    padding-right: 8px;
+}
+nav>ul>li:hover>a{
+    color:red;
+    background-color: lightblue;
+    font-style:italic;
+}
+
+nav>ul>li:nth-child(3){
+    margin-left: auto;
+}
+nav{
+    background-color: gray;
+}
+
+.menucon{
+    width: 25%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.menucon>a{
+   
+    width: 100%;
+    text-decoration: none;  
+    color: black;
+    margin: 0px;
+}
+.menucon p{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    border: black solid 1px;
+}
+.menucon p:hover{
+    background-color: red;
+    border-bottom: 2px solid white;
+}
+ nav>ul>li:hover>div.menucon{
+   display: block;
+}
+.banner>img{
+    width: 100%;
+    height: 200px;
+}
+.listProduct{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 20px;
+    gap: 10px;
+}
+.item{
+    background-color: white;
+    width: 18%;
+    text-decoration: none;
+    border: 1px black solid ;
+    margin: 12px 3px;
+    box-shadow: 3px 4px 5px whitesmoke;
+    border-radius: 10px;    
+    height: 300px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.item img{
+    width: 88%;
+    margin: 0 auto;
+    transform: all 0.5s ease;
+}
+.item img:hover{
+    transform: scale(1.2);
+}
+.item h3 {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.item p{
+    height: 100%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 277px;
+}
+.container1{
+    width: 90%;
+    background-color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px 50px;
+}
+.item1{
+    display: flex;
+}
+.item1>img{
+    width: 80px;
+    height: 80px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+footer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer a{
+    color: white;
+    font-weight: lighter;
+    padding: 2px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.col3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18%;
+    justify-content: space-between;
+    
+}
+.col3 img{
+   width: 47%;
+   height: 40px;
+   border-radius: 10px;
+    margin: 3px;
+}
+.col4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18%;
+    justify-content: space-between;
+    margin-right: 15px;
+    
+}
+.col4 img{
+    width: 47%;
+    height: 40px;
+    border-radius: 10px;
+ }
+ .col4 .bct{
+    width: 80%;
+    height: 80px;
+}
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    color: white;
+    text-align: left;
+}
+.detail .image img{
+    width: 80%;
+}
+.detail .image{
+    position: relative;
+}
+.detail .image::before{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #94817733;
+    z-index: -1;
+    border-radius: 190px 100px 170px 180px;
+    left: calc(50% - 150px);
+    top: 50px;
+
+}
+.detail .name{
+    font-size: xxx-large;
+    padding: 40px 0 0 0;
+    margin: 0 0 10px 0;
+}
+.detail .price{
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+.detail .buttons{
+    
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.detail .buttons button{
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: large;
+}
+.detail .buttons svg{
+    width: 15px;
+}
+.detail .buttons span{
+    background-color: #555454;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.detail .buttons button:nth-child(2){
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    box-shadow: 0 10px 20px #2F2F2F77;
+}
+.detail .description{
+    font-weight: 300;
+}
+
+.dangky{
+    color: white;
+}
+.dangky>form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dangky fieldset{
+    width: 47%;
+    margin: 3px;
+    border-radius: 8px;
+}
+.dangky input{
+    background-color: gray;
+    border-radius: 5px;
+    height: 25px;
+}
+.dangky .submit{
+    width: 60%;
+    padding: 15px 0px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.dangky .submit>input{
+    margin: 2px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.dangky h3{
+    margin: 5px;
+}
+.dangky .input{
+    background-color: gray;
+    color: white;
+}
+.dangnhap form{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.dangnhap input{
+    background-color: gray;
+    border-radius: 5px;
+    height: 25px;
+}
+.dangnhap input[type='submit']{
+    margin: 2px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.dangnhap .dmk{
+    color: red;
+    font-weight: bold;
+}
+.tag .name{
+    color: white;
+    width: 20%;
+    height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: green;
+}
